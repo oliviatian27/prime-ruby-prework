@@ -3,8 +3,8 @@ def prime?(i)
   if i<2
     return false
   else
-  for n in 2..i
-    if i%n==0&&i!=n
+  for n in 2..i-1
+    if i%n==0
      return false
     end
   return true
