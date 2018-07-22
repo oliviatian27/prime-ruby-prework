@@ -6,3 +6,4 @@ def prime?(i)
    end
  return true
  end
+ end
